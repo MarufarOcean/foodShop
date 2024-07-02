@@ -1,0 +1,36 @@
+header{
+    background-color: white;
+    border-bottom: 1px solid red;
+    padding: 0;
+}
+
+a{
+    color: green;
+}
+
+a:hover{
+    background: purple;
+    color: yellow;
+}
+
+.container{
+
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+a.logo{
+    font-weight: bold;
+    padding: 1em;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+}
+
+nav ul li a{
+    padding: 1em;
+    display: inline-block;
+}
