@@ -1,0 +1,25 @@
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+ul li a{
+    display: flex;
+    flex-direction: column;
+    height: 20rem;
+    width: 20rem;
+    border: 1px solid whitesmoke;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    overflow: hidden;
+    color: red;
+}
+
+li a:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
