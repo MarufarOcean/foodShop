@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
-import { StarRatingModule } from 'angular-star-rating';
+// import { RatingModule } from 'ng-starrating';
 
 
 @NgModule({
@@ -17,7 +17,7 @@ import { StarRatingModule } from 'angular-star-rating';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    StarRatingModule.forRoot()
+    // RatingModule
   ],
   providers: [
     provideClientHydration()
