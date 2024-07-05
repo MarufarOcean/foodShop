@@ -1,1 +1,4 @@
-<p>search works!</p>
+<div>
+    <input type="text" placeholder="Search Food" [(ngModel)]="searchTerm" (change)="searh()">
+    <button (click)="searh()">Search</button>
+</div>
