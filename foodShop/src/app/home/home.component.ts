@@ -11,6 +11,7 @@ import { ActivatedRoute } from '@angular/router';
 export class HomeComponent implements OnInit{
   foods:Food[]=[];
   constructor (private foodService:FoodService, private route:ActivatedRoute){}
+  
   ngOnInit(): void {
     this.route.params.subscribe(params =>{
       if(params.searchTerm)
@@ -23,7 +24,5 @@ export class HomeComponent implements OnInit{
         this.foods= this.foodService.getAll();
       }
     })
-
-    this.foods = this.foodService.getAll();
   }
 }
