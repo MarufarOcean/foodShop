@@ -39,7 +39,7 @@ export class FoodService {
         name: 'Prone Noodles',
         cookTime: '15',
         price:15,
-        favorite: true,
+        favorite: false,
         origins: ['Thailand'],
         stars: 4.8,
         imageUrl:'/Images/food/food3.jpg',
