@@ -40,7 +40,7 @@ export class FoodService {
         cookTime: '15',
         price:15,
         favorite: true,
-        origins: ['China'],
+        origins: ['Thailand'],
         stars: 4.8,
         imageUrl:'/Images/food/food3.jpg',
         tags: ['Fastfood','Lunch']

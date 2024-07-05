@@ -9,7 +9,21 @@
                 <span class="favorite{{food.favorite?'':'not'}}">
                 🖤
                 </span>
-                
+                <div class="product-item-footer">
+                    <div class="origins">
+                        <!-- <span *ngfor="let origin of food.origins">
+                            {{origin}}
+                        </span> -->
+                        {{food.origins}}
+                    </div>
+                    <div class="cook-time">
+                        <span>⌚</span>
+                        {{food.cookTime}}
+                    </div>
+                    <div class="price">
+                        <span>{{food.price|currency}}</span>
+                    </div>
+                </div>
             </div>
         </a>
     </li>
