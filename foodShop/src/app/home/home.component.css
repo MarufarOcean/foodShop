@@ -12,7 +12,7 @@ ul li a{
     flex-direction: column;
     height: 22rem;
     width: 20rem;
-    border: 1px solid whitesmoke;
+    border: 1px solid rgb(226, 223, 223);
     border-radius: 1rem;
     margin: 0.5rem;
     overflow: hidden;
