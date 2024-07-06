@@ -68,3 +68,12 @@ li a:hover{
     color: #414141;
     margin-top: .3rem;
 }
+
+.tag{
+    border-radius: .2rem;
+    background-color: whitesmoke;
+    display: inline-block;
+    font-size: .9rem;
+    color: rgb(165, 82, 82);
+    margin-right: .3rem;
+}

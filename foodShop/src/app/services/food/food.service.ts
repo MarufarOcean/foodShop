@@ -24,6 +24,10 @@ export class FoodService {
     this.getAll().filter(food => food.tags?.includes(tag));
   }
 
+  getAllFoodsBySearchTerm(searchTerm:string):Food[]{
+    return this.getAll().filter(food=>food.name.toLowerCase().includes(searchTerm.toLowerCase()));
+  }
+
   getAll():Food[]{
     return[
       

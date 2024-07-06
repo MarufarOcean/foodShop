@@ -1,6 +1,5 @@
-<app-search>
-    
-</app-search>
+<app-search></app-search>
+<app-tags></app-tags>
 <ul>
     <li *ngFor="let food of foods" >
         <a>
@@ -27,6 +26,9 @@
                 </div>
                 <div class="price">
                     <span>{{food.price|currency}}</span>
+                </div>
+                <div class="tag">
+                    {{food.tags}}
                 </div>
             </div>
         </a>
