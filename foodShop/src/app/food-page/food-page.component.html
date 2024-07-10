@@ -17,16 +17,17 @@ resetLintText="Back to Homepage"></app-not-found>
             </span>
         </div>
         <div class="cook-time">
-            <span>🕒</span>
-            {{food.cookTime}}
+            <span>
+                Time to cook about <strong>{{food.cookTime}}</strong> minutes
+            </span>
+        </div>
+        <div class="tags">
+            <app-tags [foodPageTags]="food.tags" justifyContent="start"></app-tags>
         </div>
         <div class="price">
             <span>{{food.price|currency}}</span>
         </div>
-        <div class="tags">
-            <!-- <app-tags ></app-tags> -->
-             {{food.tags}}
-        </div>
+        
         <button (click)="addToCart()">Add to Cart</button>
     </div>
 </div>
